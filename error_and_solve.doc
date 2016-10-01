@@ -1,0 +1,8 @@
+
+error_no :10
+
+	Deprecation Warnings:
+
+	Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated.
+
+solve : https://github.com/rspec/rspec-rails/issues/1524
