@@ -5,6 +5,9 @@ require File.expand_path('../../config/environment', __FILE__)
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'spec_helper'
 require 'rspec/rails'
+# for content test
+require 'capybara/rails'
+require 'capybara/rspec'
 # for devise authenticate
 require 'support/controller_macros'
 require 'support/factory_girl'

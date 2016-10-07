@@ -46,9 +46,10 @@ end
 
 group :test do
   gem 'factory_girl_rails', '~> 4.5'
+  gem 'capybara'
   gem 'shoulda-matchers'
-  gem "vcr"
-  gem "webmock"
+  gem 'vcr'
+  gem 'webmock'
   gem 'timecop'
   gem 'rails-controller-testing'
 end
